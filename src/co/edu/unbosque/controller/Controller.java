@@ -1,13 +1,9 @@
 package co.edu.unbosque.controller;
 
 import co.edu.unbosque.view.VentanaPrincipal;
-
-import javax.swing.*;
-import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 
 public class Controller extends Component implements ActionListener {
     private VentanaPrincipal view;
